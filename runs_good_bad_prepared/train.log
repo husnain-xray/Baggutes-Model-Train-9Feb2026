@@ -1,0 +1,80 @@
+2026-02-09 03:08:46,382 | INFO | [LOG] Writing logs to: runs_good_bad_prepared\train.log
+2026-02-09 03:08:46,386 | INFO | [CPU] cpu_count=8 | cpu_pct=100% | torch_threads=8 | interop_threads=2 | mkldnn=True
+2026-02-09 03:08:46,408 | INFO | class_to_idx={'bad': 0, 'good': 1} | classes=['bad', 'good']
+2026-02-09 03:08:46,422 | INFO | [DATA] train=240  val=46
+2026-02-09 03:09:29,743 | INFO | [EPOCH 1/30] train_loss=0.1923 | val_loss=0.0038 | val_acc=1.0000 | epoch_time=00:00:43 | ETA=00:20:37
+2026-02-09 03:09:30,392 | INFO | [BEST] best_acc=1.0000 -> saved best.pth
+2026-02-09 03:10:11,080 | INFO | [EPOCH 2/30] train_loss=0.1486 | val_loss=0.0574 | val_acc=0.9783 | epoch_time=00:00:41 | ETA=00:19:27
+2026-02-09 03:10:51,344 | INFO | [EPOCH 3/30] train_loss=0.0611 | val_loss=0.0071 | val_acc=1.0000 | epoch_time=00:00:40 | ETA=00:18:30
+2026-02-09 03:11:32,642 | INFO | [EPOCH 4/30] train_loss=0.0548 | val_loss=0.0729 | val_acc=0.9783 | epoch_time=00:00:41 | ETA=00:17:48
+2026-02-09 03:12:13,512 | INFO | [EPOCH 5/30] train_loss=0.0593 | val_loss=0.0700 | val_acc=0.9783 | epoch_time=00:00:41 | ETA=00:17:05
+2026-02-09 03:12:13,776 | INFO | [CONFUSION_MATRIX]
+[[29  1]
+ [ 0 16]]
+2026-02-09 03:12:13,776 | INFO | [CLASSIFICATION_REPORT]
+              precision    recall  f1-score   support
+
+         bad     1.0000    0.9667    0.9831        30
+        good     0.9412    1.0000    0.9697        16
+
+    accuracy                         0.9783        46
+   macro avg     0.9706    0.9833    0.9764        46
+weighted avg     0.9795    0.9783    0.9784        46
+
+2026-02-09 03:12:59,325 | INFO | [EPOCH 6/30] train_loss=0.0514 | val_loss=0.0189 | val_acc=1.0000 | epoch_time=00:00:46 | ETA=00:16:42
+2026-02-09 03:13:48,997 | INFO | [EPOCH 7/30] train_loss=0.0309 | val_loss=0.0188 | val_acc=0.9783 | epoch_time=00:00:49 | ETA=00:16:25
+2026-02-09 03:14:33,142 | INFO | [EPOCH 8/30] train_loss=0.0111 | val_loss=0.1435 | val_acc=0.9783 | epoch_time=00:00:44 | ETA=00:15:45
+2026-02-09 03:15:14,660 | INFO | [EPOCH 9/30] train_loss=0.0161 | val_loss=0.0011 | val_acc=1.0000 | epoch_time=00:00:41 | ETA=00:14:58
+2026-02-09 03:15:55,491 | INFO | [EPOCH 10/30] train_loss=0.0887 | val_loss=0.1226 | val_acc=0.9783 | epoch_time=00:00:41 | ETA=00:14:11
+2026-02-09 03:15:55,743 | INFO | [CONFUSION_MATRIX]
+[[29  1]
+ [ 0 16]]
+2026-02-09 03:15:55,745 | INFO | [CLASSIFICATION_REPORT]
+              precision    recall  f1-score   support
+
+         bad     1.0000    0.9667    0.9831        30
+        good     0.9412    1.0000    0.9697        16
+
+    accuracy                         0.9783        46
+   macro avg     0.9706    0.9833    0.9764        46
+weighted avg     0.9795    0.9783    0.9784        46
+
+2026-02-09 03:16:35,951 | INFO | [EPOCH 11/30] train_loss=0.0303 | val_loss=0.0930 | val_acc=0.9783 | epoch_time=00:00:40 | ETA=00:13:24
+2026-02-09 03:17:16,061 | INFO | [EPOCH 12/30] train_loss=0.0141 | val_loss=0.1561 | val_acc=0.9783 | epoch_time=00:00:40 | ETA=00:12:38
+2026-02-09 03:17:56,365 | INFO | [EPOCH 13/30] train_loss=0.0075 | val_loss=0.1618 | val_acc=0.9783 | epoch_time=00:00:40 | ETA=00:11:53
+2026-02-09 03:18:53,053 | INFO | [EPOCH 14/30] train_loss=0.0202 | val_loss=0.0374 | val_acc=0.9783 | epoch_time=00:00:56 | ETA=00:11:28
+2026-02-09 03:19:41,592 | INFO | [EPOCH 15/30] train_loss=0.0271 | val_loss=0.2788 | val_acc=0.9783 | epoch_time=00:00:48 | ETA=00:10:50
+2026-02-09 03:19:41,890 | INFO | [CONFUSION_MATRIX]
+[[29  1]
+ [ 0 16]]
+2026-02-09 03:19:41,890 | INFO | [CLASSIFICATION_REPORT]
+              precision    recall  f1-score   support
+
+         bad     1.0000    0.9667    0.9831        30
+        good     0.9412    1.0000    0.9697        16
+
+    accuracy                         0.9783        46
+   macro avg     0.9706    0.9833    0.9764        46
+weighted avg     0.9795    0.9783    0.9784        46
+
+2026-02-09 03:20:34,502 | INFO | [EPOCH 16/30] train_loss=0.0129 | val_loss=0.1072 | val_acc=0.9783 | epoch_time=00:00:53 | ETA=00:10:15
+2026-02-09 03:21:24,090 | INFO | [EPOCH 17/30] train_loss=0.0174 | val_loss=0.0740 | val_acc=0.9783 | epoch_time=00:00:49 | ETA=00:09:35
+2026-02-09 03:22:16,565 | INFO | [EPOCH 18/30] train_loss=0.0096 | val_loss=0.0587 | val_acc=0.9783 | epoch_time=00:00:52 | ETA=00:08:56
+2026-02-09 03:23:10,890 | INFO | [EPOCH 19/30] train_loss=0.0101 | val_loss=0.0404 | val_acc=0.9783 | epoch_time=00:00:54 | ETA=00:08:17
+2026-02-09 03:23:56,993 | INFO | [EPOCH 20/30] train_loss=0.0243 | val_loss=0.1327 | val_acc=0.9783 | epoch_time=00:00:46 | ETA=00:07:32
+2026-02-09 03:23:57,262 | INFO | [CONFUSION_MATRIX]
+[[29  1]
+ [ 0 16]]
+2026-02-09 03:23:57,262 | INFO | [CLASSIFICATION_REPORT]
+              precision    recall  f1-score   support
+
+         bad     1.0000    0.9667    0.9831        30
+        good     0.9412    1.0000    0.9697        16
+
+    accuracy                         0.9783        46
+   macro avg     0.9706    0.9833    0.9764        46
+weighted avg     0.9795    0.9783    0.9784        46
+
+2026-02-09 03:24:45,590 | INFO | [EPOCH 21/30] train_loss=0.0026 | val_loss=0.1505 | val_acc=0.9783 | epoch_time=00:00:48 | ETA=00:06:48
+2026-02-09 03:25:35,928 | INFO | [EPOCH 22/30] train_loss=0.0024 | val_loss=0.1119 | val_acc=0.9783 | epoch_time=00:00:50 | ETA=00:06:05
+2026-02-09 03:26:24,576 | INFO | [EPOCH 23/30] train_loss=0.0013 | val_loss=0.1080 | val_acc=0.9783 | epoch_time=00:00:48 | ETA=00:05:20
